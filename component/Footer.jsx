@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, NavLink, Nav } from "react-bootstrap";
 import footerstyle from "../styles/Footer.module.css";
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <>
       <div className={footerstyle.footer_section}>
@@ -116,4 +116,4 @@ const Footer = () => {
     </>
   );
 };
-export default Footer;
+

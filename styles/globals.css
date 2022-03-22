@@ -18,3 +18,29 @@ a {
   max-width: 1600px !important;
   margin: 0 auto;
 }
+.slick-prev ,.slick-next {
+  left: auto !important;
+  top: 90% !important;
+  right: 10% !important;
+}
+.slick-prev:after{
+
+  content: '';
+  background-color: red !important;
+}
+.slick-next {
+  right: 6% !important;
+}
+.accordion-button {
+  background-color: white !important;
+  
+}
+.accordion-button:focus{
+  outline: none !important;
+}
+.answer {
+  display: none;
+}
+.answer.active {
+  display: block;
+}

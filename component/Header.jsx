@@ -5,7 +5,7 @@ import NavbarCollapse from "react-bootstrap/NavbarCollapse";
 import headerstyle from "../styles/Header.module.css";
 
 
-const Header = () => {
+export const Header = () => {
     return(
         <>
         {/* <h1>Home page </h1> */}
@@ -38,4 +38,4 @@ const Header = () => {
     )
 
 }
-export default Header;
+// export default Header;
