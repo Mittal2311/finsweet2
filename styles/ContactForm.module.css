@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url("../public/font/Poppins\ Regular\ 400.ttf") format("truetype");
+  font-weight: normal;
+}
+
+.contactform_section {
+  padding: 50px 0;
+  width: 100%;
+}
+.contact_img {
+  background-image: url("/images/contactimg.svg");
+  display: inline-block;
+  background-repeat: no-repeat;
+  height: 691px;
+  width: 41%;
+}
+.contact_title {
+  display: inline-block;
+  padding: 70px;
+}
+.contact_heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 74px;
+  color: #ffffff;
+  display: inline-block;
+  max-width: 464px;
+}
+.cont_parg {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  max-width: 464px;
+}
+.forminput {
+  display: block;
+  width: 70%;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: transparent;
+  border: 1.5px solid rgba(255, 255, 255, 0.05);
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.forminput::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #f4f6fc;
+  opacity: 0.5;
+}
+.contact_form {
+  padding: 100px;
+  background: #1c1e53;
+}
+.form_heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #ffffff;
+}
+.form_parg {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #f4f6fc;
+  max-width: 432px;
+}
+.get_btn {
+  background: #fcd980;
+  border-radius: 41px;
+  border: none;
+  width: 70%;
+  padding: 10px 50px;
+}
+.btn_link {
+  border: none;
+  background-color: transparent;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.btn_link:after{
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: url("/images/arrow.svg");
+  background-repeat: no-repeat;
+  vertical-align: -webkit-baseline-middle;
+  margin-left: 10px;  
+}
+

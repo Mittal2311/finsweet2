@@ -1,6 +1,11 @@
 
 
-
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+      url("../public/font/Poppins\ Regular\ 400.ttf") format("truetype");
+    font-weight: normal;
+  }
 
 .feature {
     background-color: #F4F6FC;

@@ -2,21 +2,32 @@ import React, { useState } from "react";
 import { Container, Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import {Header,Banner,WeWork,OurWork,Feature, Faq ,Testimonials,Footer, } from "../component";
+import {
+  Header,
+  Banner,
+  WeWork,
+  OurWork,
+  Feature,
+  Faq,
+  Testimonials,
+  Footer,
+  ContactForm,
+  OurBlog,
+} from "../component";
 
 import ourstyle from "../styles/Ourwork.module.css";
 import fstyle from "../styles/Feature.module.css";
+import ourblogstyle from "../styles/OurBlog.module.css";
 
 import fetaturejson from "../json/features.json";
+import Ourblogjson from "../json/ourblog.json";
 
-
-import { AnimationOnScroll } from 'react-animation-on-scroll';
+import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css/animate.min.css";
-
 
 export default function Home() {
   const [featuredata] = useState(fetaturejson);
-
+  const [ourData] = useState(Ourblogjson);
 
   return (
     <>
@@ -37,11 +48,11 @@ export default function Home() {
       <div className={fstyle.feature}>
         <Container>
           <div className="main_heading text-center">
-          <AnimationOnScroll animateIn="animate__bounceIn"> 
-            <label className={fstyle.f_label}>Features</label>
-            <h2 className={fstyle.feature_heading}>
-              Design that solves problems, one product at a time
-            </h2>
+            <AnimationOnScroll animateIn="animate__bounceIn">
+              <label className={fstyle.f_label}>Features</label>
+              <h2 className={fstyle.feature_heading}>
+                Design that solves problems, one product at a time
+              </h2>
             </AnimationOnScroll>
           </div>
           <Row>
@@ -53,10 +64,19 @@ export default function Home() {
       </div>
 
       <Testimonials />
-      {/* {Faqdata.map((item) => (
-              <Faq data={item} />
-            ))} */}
-            <Faq />
+      <Faq />
+      <ContactForm />
+      <div className={ourblogstyle.ourblog_section}>
+        <Container>
+          <h2 className={ourblogstyle.our_heading}>Our blog</h2>
+          <Row>
+            {ourData.map((item) => (
+              <OurBlog data={item} />
+            ))}
+          </Row>
+        </Container>
+      </div>
+
       {/* <Footer/> */}
     </>
   );

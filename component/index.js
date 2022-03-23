@@ -7,5 +7,7 @@ export * from "./OurWork";
 export * from "./Feature";
 export * from "./Testimonials";
 export * from "./Faq";
+export * from "./ContactForm";
+export * from "./OurBlog";
 export * from "./Footer";
 

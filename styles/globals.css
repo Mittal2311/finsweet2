@@ -43,4 +43,21 @@ a {
 }
 .answer.active {
   display: block;
+  font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+    opacity: 0.87;
+    margin: 20px 27px !important;
+    max-width: 624px;
+}
+svg.active {
+  transform: rotate(180deg);
+}
+.angle {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
 }
