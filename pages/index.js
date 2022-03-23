@@ -38,7 +38,7 @@ export default function Home() {
         <Container>
           <Row>
             <div className={ourstyle.heading}>
-              <h2 className={ourstyle.our_heading}>View our projects</h2>
+              <h2 className={ourstyle.ourmainheading}>View our projects</h2>
               <button className={ourstyle.view_btn}>View More</button>
             </div>
             <OurWork />
@@ -76,8 +76,7 @@ export default function Home() {
           </Row>
         </Container>
       </div>
-
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 }

@@ -68,20 +68,18 @@ img.profileimg {
         line-height: 40px;}
         .h5_heading{font-size: 28px;
             line-height: 41px;}
-
-    
 }
 @media only screen and (max-width: 992px) {
+    .testi_section{padding: 50px 0;}
 }
 @media only screen and (max-width: 768px) {
     .heading{font-size: 25px;
         line-height: 34px;}
         .h5_heading{font-size: 23px;
-            line-height: 33px;}
-
-    
+            line-height: 33px;}                                                                                                                                    
 }
 @media only screen and (max-width: 767px) {
+    .testi_section{padding: 30px 0;}
    
 }
 @media only screen and (max-width: 567px) {

@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col, NavLink, Nav } from "react-bootstrap";
 import footerstyle from "../styles/Footer.module.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import "animate.css/animate.min.css";
 
 export const Footer = () => {
   return (
@@ -10,13 +12,16 @@ export const Footer = () => {
           {/* <h1>Footer</h1> */}
           <Row>
             <Col xl={6} lg={6} md={6} sm={12} xs={12}>
+            <AnimationOnScroll animateIn="animate__fadeInUp"> 
               <img src="/images/logo.svg"/>
               <p className={footerstyle.footer_parg}>
                 We are always open to discuss your project and improve your
                 online presence.
               </p>
+              </AnimationOnScroll>
             </Col>
             <Col xl={6} lg={6} md={6} sm={12} xs={12}>
+            <AnimationOnScroll animateIn="animate__fadeInDown"> 
               <h2 className={footerstyle.talk_heading}>Lets Talk!</h2>
               <p className={footerstyle.talk_parg}>
                 We are always open to discuss your project, improve your online
@@ -60,8 +65,10 @@ export const Footer = () => {
                   <img src="/images/linked.svg" />
                 </NavLink>
               </div>
+              </AnimationOnScroll>
             </Col>
-            <Col xl={6} lg={6} md={6} sm={12} xs={12}>
+            <Col xl={6} lg={6} md={12} sm={12} xs={12}>
+            <AnimationOnScroll animateIn="animate__bounceIn"> 
               <div className={footerstyle.contact_info}>
                 <div className={footerstyle.email_id}>
                   <label className={footerstyle.info_email}>Email me at</label>
@@ -76,6 +83,7 @@ export const Footer = () => {
                   </span>
                 </div>
               </div>
+              </AnimationOnScroll>
             </Col>
           </Row>
         </Container>

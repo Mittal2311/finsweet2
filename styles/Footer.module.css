@@ -122,7 +122,7 @@
     .copyright{font-size: 15px; margin-top: 12px;}
     .footer_navlink{font-size: 14px; padding: 10px 5px; line-height: 18px;}
     .info_email ,.call{font-size: 16px;}
-    .contact_info{padding: 15px;}
+    .contact_info{padding: 15px; display: grid;}
     .footer_link{padding: 10px 10px !important;}
 }
 

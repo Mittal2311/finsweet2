@@ -7,8 +7,9 @@ export const ContactForm = () => {
     <>
       <div className={contactstyle.contactform_section}>
         <Container>
-          <Row>
-            <Col xl={7} lg={7} md={7} sm={12} xs={12} className={contactstyle.contact_img}>
+          <Row className={contactstyle.contactrow}>
+            <Col xl={6} lg={6} md={6} sm={12} xs={12} >
+            <Image src="/images/woman.png" className={contactstyle.contact_img}/>
               <div className={contactstyle.contact_title}>
                 <h1 className={contactstyle.contact_heading}>
                   Building stellar websites for early startups
@@ -20,7 +21,7 @@ export const ContactForm = () => {
                 </p>
               </div>
             </Col>
-            <Col xl={5} lg={5} md={5} sm={12} xs={12} className={contactstyle.contact_form}>
+            <Col xl={6} lg={6} md={6} sm={12} xs={12} className={contactstyle.contact_form}>
               <div className="cont_form">
                 <h5 className={contactstyle.form_heading}>Send inquiry</h5>
                 <p className={contactstyle.form_parg}>
