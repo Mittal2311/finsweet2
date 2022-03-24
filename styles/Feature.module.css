@@ -86,7 +86,9 @@
         margin: 0 auto;}
     .feature_heading{font-size: 26px;
         line-height: 39px;}
-   
+        .imgicon{display: table; margin: 0 auto;}
+        .cont_heading{text-align: center;}
+        .cont_parag {max-width: 100%; text-align: center;}
 }
 @media only screen and (max-width: 567px) {
     

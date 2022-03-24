@@ -14,7 +14,7 @@ export const Banner = () => {
             <Col
               xl={{ span: 6, order: 1 }}
               lg={{ span: 6, order: 1 }}
-              md={{ span: 12, order: 2 }} 
+              md={{ span: 6, order: 1 }} 
               sm={{ span: 12, order: 2 }}
               xs={{ span: 12, order: 2 }}
             >
@@ -35,7 +35,7 @@ export const Banner = () => {
             <Col
               xl={{ span: 6, order: 1 }}
               lg={{ span: 6, order: 1 }}
-              md={{ span: 12, order: 1 }}
+              md={{ span: 6, order: 1 }}
               sm={{ span: 12, order: 1 }}
               xs={{ span: 12, order: 1 }}
             >

@@ -10,4 +10,5 @@ export * from "./Faq";
 export * from "./ContactForm";
 export * from "./OurBlog";
 export * from "./Footer";
+export * from "./StickyFooter";
 

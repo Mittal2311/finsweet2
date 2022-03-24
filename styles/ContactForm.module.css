@@ -145,13 +145,20 @@
 }
 @media only screen and (max-width: 767px) {
   .contact_title {
-    height: 56%;
+    height: 50%;
     width: 100%;
     padding: 35px;
   }
   .get_btn {
     padding: 10px 20px;
+    display: table;
+    margin: 0 auto;
   }
+  .form_heading{text-align: center;}
+  .form_parg{max-width: 100%;
+    text-align: center;}
+    .btn_link {display: table; margin: 20px auto;}
+    
 }
 @media only screen and (max-width: 567px) {
   .answer.active {

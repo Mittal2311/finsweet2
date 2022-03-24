@@ -9,6 +9,7 @@
 .footer_section {
     background-color: #1c1e53;
    padding-top: 100px;
+   position: relative;
 }
 .footer_parg ,.talk_parg {
     font-family: 'Poppins';

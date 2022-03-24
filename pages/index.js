@@ -13,6 +13,7 @@ import {
   Footer,
   ContactForm,
   OurBlog,
+  StickyFooter
 } from "../component";
 
 import ourstyle from "../styles/Ourwork.module.css";
@@ -77,6 +78,7 @@ export default function Home() {
         </Container>
       </div>
       <Footer/>
+      <StickyFooter />
     </>
   );
 }

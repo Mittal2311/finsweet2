@@ -20,7 +20,7 @@ export const Testimonials = () => {
       <div className={tstyle.testi_section}>
         <Container>
           <Row>
-            <Col xl={4} lg={4} md={4} sm={12} xs={12}>
+            <Col xl={4} lg={4} md={4} sm={12} xs={12} className={tstyle.mainheading}>
               <h3 className={tstyle.heading}>What our clients say about us</h3>
               <p className={tstyle.parg}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
