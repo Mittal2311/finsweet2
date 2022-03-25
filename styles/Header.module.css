@@ -26,6 +26,10 @@
   line-height: 28px;
   padding: 0 20px !important;
 }
+.navlink:hover{
+  color: white !important;
+}
+
 .contact_btn {
     font-family: 'Poppins';
     font-style: normal;

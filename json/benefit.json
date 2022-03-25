@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+     "benefiticon":"/images/featureicon6.svg",
+     "benefitheading":"Customize with ease",
+     "benefitdecription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."
+    },
+    {
+        "id": 2,
+       "benefiticon":"/images/featureicon3.svg",
+       "benefitheading":"Perfectly Responsive",
+       "benefitdecription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."
+      },
+      {
+        "id": 3,
+       "benefiticon":"/images/featureicon1.svg",
+       "benefitheading":"Friendly Support",
+       "benefitdecription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."
+      }
+  ]
+  

@@ -11,4 +11,9 @@ export * from "./ContactForm";
 export * from "./OurBlog";
 export * from "./Footer";
 export * from "./StickyFooter";
+export * from "./Benefit";
+export * from "./Logo";
+export * from "./OurTeam";
+
+
 

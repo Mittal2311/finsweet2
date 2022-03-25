@@ -28,7 +28,7 @@ export const Header = () => {
                     >
                       Home
                     </Nav.Link>
-                    <Nav.Link href="Aboutus" className={headerstyle.navlink}>
+                    <Nav.Link href="About" className={headerstyle.navlink}>
                       About Us
                     </Nav.Link>
                     <Nav.Link href="" className={headerstyle.navlink}>

@@ -11,6 +11,9 @@ app.prepare().then(() => {
     app.render(req, res, "/");
   });
   
+  server.get("/aboutus", (req, res) => {
+    app.render(req, res, "/About");
+  });
   
 
   server.all("*", (req, res) => {
