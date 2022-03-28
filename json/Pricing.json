@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "pricingnumber": "$299",
+    "pricingdesign": "Per Design",
+    "pricingheading": "Landing Page ",
+    "pricingdescription": "When you’re ready to go beyond prototyping in Figma,",
+    "pricingbutton": "Get started",
+    "List": [
+      "All limited links",
+      "Own analytics platform",
+      "Chat support",
+      "Optimize hashtags",
+      "Unlimited users"
+    ]
+  },
+  {
+    "id": 2,
+    "pricingnumber": "$399",
+    "pricingdesign": "Multi Design",
+    "pricingheading": "Website Page  ",
+    "pricingdescription": "When you’re ready to go beyond prototyping in Figma, Webflow’s ready to help.",
+    "pricingalllink": "All limited links",
+    "pricingbutton": "Get started",
+    "List": [
+      "All limited links",
+      "Own analytics platform",
+      "Chat support",
+      "Optimize hashtags",
+      "Unlimited users"
+    ]
+  },
+
+  {
+    "id": 3,
+    "pricingnumber": "$499 +",
+    "pricingdesign": "Per Design",
+    "pricingheading": "Complex Project ",
+    "pricingdescription": "When you’re ready to go beyond prototyping in Figma,",
+    "pricingbutton": "Get started",
+    "List": [
+      "All limited links",
+      "Own analytics platform",
+      "Chat support",
+      "Optimize hashtags",
+      "Unlimited users",
+      "Assist and Help"
+    ]
+  }
+]

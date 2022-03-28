@@ -14,6 +14,7 @@ export * from "./StickyFooter";
 export * from "./Benefit";
 export * from "./Logo";
 export * from "./OurTeam";
+export * from "./FeatureBanner";
 
 
 

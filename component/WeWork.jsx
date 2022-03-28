@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import westyle from "../styles/Wework.module.css";
-import Workjson from "../json/work.json";
+import Workjson from "../json/Work.json";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import "animate.css/animate.min.css";
 

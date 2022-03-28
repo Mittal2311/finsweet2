@@ -6,12 +6,11 @@ import { Header, Footer, Benefit,Logo ,OurTeam} from "../component";
 
 import aboutstyle from "../styles/_aboutus.module.css";
 import benefitstyle from "../styles/_benefit.module.css";
-import logostyle from "../styles/_logo.module.css";
 
 
-import ProcessJson from "../json/process.json";
-import OurJson from "../json/missionvision.json";
-import BenefitJson from "../json/benefit.json";
+import ProcessJson from "../json/Process.json";
+import OurJson from "../json/Missionvision.json";
+import BenefitJson from "../json/Benefit.json";
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import "animate.css/animate.min.css";

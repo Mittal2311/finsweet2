@@ -20,8 +20,8 @@ import ourstyle from "../styles/Ourwork.module.css";
 import fstyle from "../styles/Feature.module.css";
 import ourblogstyle from "../styles/OurBlog.module.css";
 
-import fetaturejson from "../json/features.json";
-import Ourblogjson from "../json/ourblog.json";
+import fetaturejson from "../json/Features.json";
+import Ourblogjson from "../json/Ourblog.json";
 
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css/animate.min.css";

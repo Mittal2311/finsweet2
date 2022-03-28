@@ -31,10 +31,10 @@ export const Header = () => {
                     <Nav.Link href="About" className={headerstyle.navlink}>
                       About Us
                     </Nav.Link>
-                    <Nav.Link href="" className={headerstyle.navlink}>
+                    <Nav.Link href="Feature" className={headerstyle.navlink}>
                       Features
                     </Nav.Link>
-                    <Nav.Link href="" className={headerstyle.navlink}>
+                    <Nav.Link href="Pricing" className={headerstyle.navlink}>
                       Pricing
                     </Nav.Link>
                     <Nav.Link href="" className={headerstyle.navlink}>

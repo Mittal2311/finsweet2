@@ -14,11 +14,19 @@ app.prepare().then(() => {
   server.get("/aboutus", (req, res) => {
     app.render(req, res, "/About");
   });
-  
-
+  server.get("/pricing", (req, res) => {
+    app.render(req, res, "/Pricing");
+  });
+  server.get("/feature", (req, res) => {
+    app.render(req, res, "/Feature");
+  });
+  server.get("/work", (req, res) => {
+    app.render(req, res, "/Work");
+  });
   server.all("*", (req, res) => {
     return handle (req, res, "/");
   });
+
   server.listen(port, (err) => {
     if (err) throw err;
     console.log(`> Ready on http://localhost:${port}`);

@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import { Container ,Row,Col,Image} from "react-bootstrap";
 import teamstyle from "../styles/_ourteam.module.css";
-import TeamJson from "../json/team.json";
+import TeamJson from "../json/Team.json";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import "animate.css/animate.min.css";
 

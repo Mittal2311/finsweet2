@@ -2,7 +2,7 @@ import Link from "next/link";
 import React,{useState} from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import faqstyle from "../styles/Faq.module.css";
-import Faqjson from "../json/faq.json";
+import Faqjson from "../json/Faq.json";
 import Questions from "./Questions";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import "animate.css/animate.min.css";
