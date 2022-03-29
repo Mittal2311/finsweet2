@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: black;
   text-decoration: none;
 }
 ul {
@@ -117,6 +117,17 @@ img.messageicon {
   text-align: center;
   border: 1px solid #999;
   font-size: 20px;
+}
+
+.nav-link.active {
+  background-color: transparent !important;
+  color: #2405F2 !important ;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  padding: 0 24px !important;
 }
 
 /* Responsive start  */

@@ -23,6 +23,15 @@ app.prepare().then(() => {
   server.get("/work", (req, res) => {
     app.render(req, res, "/Work");
   });
+  server.get("/casestudies", (req, res) => {
+    app.render(req, res, "/CaseStudies");
+  });
+  server.get("/blog", (req, res) => {
+    app.render(req, res, "/Blog");
+  });
+  server.get("/readblog", (req, res) => {
+    app.render(req, res, "/ReadBlog");
+  });
   server.all("*", (req, res) => {
     return handle (req, res, "/");
   });

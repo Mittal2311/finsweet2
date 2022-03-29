@@ -1,4 +1,9 @@
-
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+      url("../public/font/Poppins\ Regular\ 400.ttf") format("truetype");
+    font-weight: normal;
+  }
 
 .FeatureTitle {
     font-family: 'Poppins';
@@ -42,8 +47,8 @@
     display: flex;
 }
 .Leftside {
-    padding-left: 6%;
-    margin-top: 10%;
+    /* padding-left: 6%; */
+    margin-top: 18%;
 }
 .MainCol {
     padding: 100px 50px;
@@ -51,6 +56,8 @@
 
 /* Responsive start  */
 @media only screen and (max-width: 1199px) {
+    .FeatureHeading {font-size: 30px;
+        line-height: 43px;}
  
 }
 @media only screen and (max-width: 992px) {
@@ -58,14 +65,16 @@
   
 }
 @media only screen and (max-width: 768px) {
+    .FeatureHeading {font-size: 23px;
+        line-height: 36px;}
                                                                                                                             
 }
 @media only screen and (max-width: 767px) {
-  
- 
+    .FeatureHeading{max-width: 100%;}
+    .MainCol{padding: 50px 50px;}
+    .Leftside{text-align: center;margin-top: 6%;}
 }
 @media only screen and (max-width: 567px) {
-  
   
 }
 /* Responsive end  */

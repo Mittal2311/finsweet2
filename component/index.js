@@ -15,6 +15,9 @@ export * from "./Benefit";
 export * from "./Logo";
 export * from "./OurTeam";
 export * from "./FeatureBanner";
+export * from "./CTA";
+export * from "./BlogBanner";
+
 
 
 

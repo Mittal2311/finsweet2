@@ -57,7 +57,7 @@ const Feature = () => {
                         md={7}
                         sm={12}
                         xs={12}
-                        className={featurestyle.MainCol}                        
+                        //className={featurestyle.MainCol}                        
                       >
                         <div className={aboutstyle.OurMission}>
                         <span className={featurestyle.FeatureTitle}>{i.title}</span>
@@ -94,7 +94,7 @@ const Feature = () => {
                         md={7}
                         sm={12}
                         xs={12}
-                        className={featurestyle.MainCol}                        
+                        //className={featurestyle.MainCol}                        
                       >
                         <div className={featurestyle.Leftside}>
                         <span className={featurestyle.FeatureTitle}>{i.title}</span>
