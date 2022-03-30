@@ -18,7 +18,7 @@ export const Logo = () => {
             breakpoint: 1024,
             settings: {
               slidesToShow: 3,
-              slidesToScroll: 3,
+              slidesToScroll: 1,
               infinite: true,
               
             }
@@ -27,7 +27,7 @@ export const Logo = () => {
             breakpoint: 600,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 2,
+              slidesToScroll: 1,
               initialSlide: 2
             }
           },
@@ -42,7 +42,6 @@ export const Logo = () => {
       };
   return (
     <>
-      {/* <div className={logostyle.LogoSection}>  */}
         <Col xl={2} lg={2} md={12} sm={12} xs={12} className={logostyle.LogoUser}>
           <h3>100.000+</h3>
           <span>Finsweet Users</span>
@@ -69,7 +68,6 @@ export const Logo = () => {
           </div>
         </Slider>
         </Col>
-        {/* </div> */}
     </>
   );
 };

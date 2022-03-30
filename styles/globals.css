@@ -51,7 +51,7 @@ ul {
     line-height: 32px;
     color: #282938;
     opacity: 0.87;
-    margin: 20px 27px !important;
+    margin: 20px 52px !important;
     max-width: 624px;
 }
 span.active {
@@ -62,6 +62,7 @@ span.active {
   cursor: pointer;
   background-color: transparent;
   border: none;
+  margin-left: auto;
 }
 .desktop_nav{display: block;}
   .mobile_nav{display: none;}
@@ -118,7 +119,7 @@ img.messageicon {
   border: 1px solid #999;
   font-size: 20px;
 }
-
+/* 
 .nav-link.active {
   background-color: transparent !important;
   color: #2405F2 !important ;
@@ -128,7 +129,7 @@ img.messageicon {
   font-size: 18px;
   line-height: 32px;
   padding: 0 24px !important;
-}
+} */
 
 /* Responsive start  */
 @media only screen and (max-width: 1199px) {

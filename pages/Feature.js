@@ -17,7 +17,6 @@ import aboutstyle from "../styles/_aboutus.module.css";
 import BenefitJson from "../json/Benefit.json";
 import ClassJson from "../json/Class.json";
 
-
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css/animate.min.css";
 const Feature = () => {
@@ -44,53 +43,85 @@ const Feature = () => {
         </Container>
       </div>
       <div className="BestClass">
-        <Container>
-          <Row>
-
-          {classData.map((i, k) => {
-                if (k % 2 == 0) {
-                  return (
-                    <>
-                      <Col
-                        xl={7}
-                        lg={7}
-                        md={7}
-                        sm={12}
-                        xs={12}
-                        //className={featurestyle.MainCol}                        
+        {classData.map((i, k) => {
+          if (k % 2 == 0) {
+            return (
+              <>
+                <Container>
+                  <Row>
+                    <Col
+                      xl={7}
+                      lg={7}
+                      md={7}
+                      sm={12}
+                      xs={12}
+                      //className={featurestyle.MainCol}
+                    >
+                      <AnimationOnScroll
+                        animateIn="animate__fadeInDown"
+                        animateOnce={true}
                       >
-                       <AnimationOnScroll animateIn="animate__fadeInDown" animateOnce={true}>
                         <div className={aboutstyle.OurMission}>
-                        <span className={featurestyle.FeatureTitle}>{i.title}</span>
-                      <h3 className={featurestyle.FeatureHeading}>
-                      {i.heading}
-                      </h3>
-                      <p className={featurestyle.FeatureParg}>
-                      {i.description}
-                      </p>
+                          <span className={featurestyle.FeatureTitle}>
+                            {i.title}
+                          </span>
+                          <h3 className={featurestyle.FeatureHeading}>
+                            {i.heading}
+                          </h3>
+                          <p className={featurestyle.FeatureParg}>
+                            {i.description}
+                          </p>
                         </div>
-                        </AnimationOnScroll>
-                      </Col>
-                      <Col xl={5} lg={5} md={5} sm={12} xs={12}  className={featurestyle.MainCol}>
-                      <AnimationOnScroll animateIn="animate__fadeInDown" animateOnce={true}>
+                      </AnimationOnScroll>
+                    </Col>
+                    <Col
+                      xl={5}
+                      lg={5}
+                      md={5}
+                      sm={12}
+                      xs={12}
+                      className={featurestyle.MainCol}
+                    >
+                      <AnimationOnScroll
+                        animateIn="animate__fadeInDown"
+                        animateOnce={true}
+                      >
                         <Image
                           src={i.rightimg}
                           className={aboutstyle.MissionImg}
                         />
-                        </AnimationOnScroll>
-                      </Col>
-                    </>
-                  );
-                } else if (k % 2 == 1) {
-                  return (
-                    <>
-                      <div className={aboutstyle.LeftCont} style={{backgroundColor:i.id == 2 ? "#F4F6FC":"#FCD9801A"}} >
-                      <Col xl={5} lg={5} md={5} sm={12} xs={12}  className={featurestyle.MainCol}>
-                      <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
-                        <Image
-                         src={i.lefttimg} 
-                          className={aboutstyle.VisionImg}
-                        />
+                      </AnimationOnScroll>
+                    </Col>
+                  </Row>
+                </Container>
+              </>
+            );
+          } else if (k % 2 == 1) {
+            return (
+              <>
+                <div
+                  style={{
+                    backgroundColor: i.id == 2 ? "#F4F6FC" : "#FCD9801A",
+                  }}
+                >
+                  <Container>
+                    <Row className={aboutstyle.LeftCont}>
+                      <Col
+                        xl={5}
+                        lg={5}
+                        md={5}
+                        sm={12}
+                        xs={12}
+                        className={featurestyle.MainCol}
+                      >
+                        <AnimationOnScroll
+                          animateIn="animate__fadeInUp"
+                          animateOnce={true}
+                        >
+                          <Image
+                            src={i.lefttimg}
+                            className={aboutstyle.VisionImg}
+                          />
                         </AnimationOnScroll>
                       </Col>
                       <Col
@@ -99,28 +130,35 @@ const Feature = () => {
                         md={7}
                         sm={12}
                         xs={12}
-                        //className={featurestyle.MainCol}                        
+                        //className={featurestyle.MainCol}
                       >
-                       <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}> 
-                        <div className={featurestyle.Leftside}>
-                        <span className={featurestyle.FeatureTitle}>{i.title}</span>
-                          <h3 className={featurestyle.FeatureHeading}>
-                          {i.heading}
-                          </h3>
-                          <p className={featurestyle.FeatureParg}>
-                          {i.description}
-                          </p>
-                        </div>
+                        <AnimationOnScroll
+                          animateIn="animate__fadeInUp"
+                          animateOnce={true}
+                        >
+                          <div className={featurestyle.Leftside}>
+                            <span className={featurestyle.FeatureTitle}>
+                              {i.title}
+                            </span>
+                            <h3 className={featurestyle.FeatureHeading}>
+                              {i.heading}
+                            </h3>
+                            <p className={featurestyle.FeatureParg}>
+                              {i.description}
+                            </p>
+                          </div>
                         </AnimationOnScroll>
-                      </Col>                      
-                      </div>
-                    </>
-                  );
-                }
-              })}
-        
-          </Row>
-        </Container>
+                      </Col>
+                    </Row>
+                  </Container>
+                </div>
+              </>
+            );
+          }
+        })}
+
+        {/* </Row> */}
+        {/* </Container> */}
       </div>
       <Faq />
       <Footer />

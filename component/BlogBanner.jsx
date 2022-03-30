@@ -15,10 +15,8 @@ export const BlogBanner = () => {
             <label className={blogstyle.Author}>Andrew Jonson</label>
             <label className={blogstyle.Author}>Posted on 27th January 2021</label>
           </div>
-          </AnimationOnScroll>
-          <AnimationOnScroll animateIn="animate__wobble"  animateOnce={true}> 
-          <Image src="/images/BlogImg.svg" className={blogstyle.BlogImage} />
-          </AnimationOnScroll>
+          </AnimationOnScroll>        
+          <Image src="/images/BlogImg.svg" className={blogstyle.BlogImage} />         
         </>
     )
 }

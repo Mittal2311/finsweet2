@@ -27,7 +27,7 @@ const Pricing = () => {
             {pricingData.map((item ,k) => {
               return (
                 <Col xl={4} lg={6} md={6} sm={12} xs={12}>
-                {/* style={{backgroundColor:item.id == 2 ? "#1C1E53":""}} */}
+
                   <div className={pricestyle.PricingCard} style={{backgroundColor:item.id == 2 ? "#1C1E53":""}}>
                     <h3 className={pricestyle.number} style={{color:k%2 == 0 ? "black":"white"}}>{item.pricingnumber}</h3>
                     <p className={pricestyle.CardTitle} style={{color:k%2 == 0 ? "black":"#FCD980"}}>{item.pricingdesign}</p>
