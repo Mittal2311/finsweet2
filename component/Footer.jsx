@@ -17,7 +17,7 @@ export const Footer = () => {
           {/* <h1>Footer</h1> */}
           <Row>
             <Col xl={6} lg={6} md={6} sm={12} xs={12}>
-              <AnimationOnScroll animateIn="animate__fadeInUp">
+              <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
                 <img src="/images/logo.svg" />
                 <p className={footerstyle.footer_parg}>
                   We are always open to discuss your project and improve your
@@ -26,7 +26,7 @@ export const Footer = () => {
               </AnimationOnScroll>
             </Col>
             <Col xl={6} lg={6} md={6} sm={12} xs={12}>
-              <AnimationOnScroll animateIn="animate__fadeInDown">
+              <AnimationOnScroll animateIn="animate__fadeInDown" animateOnce={true}>
                 <h2 className={footerstyle.talk_heading}>Lets Talk!</h2>
                 <p className={footerstyle.talk_parg}>
                   We are always open to discuss your project, improve your
@@ -73,7 +73,7 @@ export const Footer = () => {
               </AnimationOnScroll>
             </Col>
             <Col xl={6} lg={6} md={12} sm={12} xs={12}>
-              <AnimationOnScroll animateIn="animate__bounceIn">
+              <AnimationOnScroll animateIn="animate__bounceIn" animateOnce={true}>
                 <div className={footerstyle.contact_info}>
                   <div className={footerstyle.email_id}>
                     <label className={footerstyle.info_email}>

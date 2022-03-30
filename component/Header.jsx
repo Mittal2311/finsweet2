@@ -43,7 +43,7 @@ export const Header = () => {
                     <Nav.Link href="" className={headerstyle.navlink}>
                       FAQ
                     </Nav.Link>
-                    <Nav.Link href="" className={headerstyle.navlink}>
+                    <Nav.Link href="Blog" className={headerstyle.navlink}>
                       Blog
                     </Nav.Link>
                   </Nav>
@@ -87,19 +87,19 @@ export const Header = () => {
                     <Nav.Link href="Aboutus" className={headerstyle.navlink}>
                       About Us
                     </Nav.Link>
-                    <Nav.Link href="" className={headerstyle.navlink}>
+                    <Nav.Link href="Feature" className={headerstyle.navlink}>
                       Features
                     </Nav.Link>
-                    <Nav.Link href="" className={headerstyle.navlink}>
+                    <Nav.Link href="Pricing" className={headerstyle.navlink}>
                       Pricing
                     </Nav.Link>
                     <Nav.Link href="" className={headerstyle.navlink}>
                       FAQ
                     </Nav.Link>
-                    <Nav.Link href="" className={headerstyle.navlink}>
+                    <Nav.Link href="Blog" className={headerstyle.navlink}>
                       Blog
                     </Nav.Link>
-                    <button className={headerstyle.contact_btn}>
+                    <button className={headerstyle.contact_btn} onClick={clickbtn}>
                     {" "}
                     Contact us
                   </button>

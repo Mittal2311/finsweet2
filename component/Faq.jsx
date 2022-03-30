@@ -16,15 +16,15 @@ export const Faq = () => {
         <Container>
           <Row>
             <Col xl={4} lg={4} md={4} sm={12} xs={12}>
-            <AnimationOnScroll animateIn="animate__fadeInUp"> 
+            <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}> 
               <h3 className={faqstyle.faq_heading}>
                 Frequently asked questions
               </h3>
-              <button className={faqstyle.faq_link}> Contact us for more info </button>
+              <button className={faqstyle.faq_link}>Contact us for more info </button>
               </AnimationOnScroll>
             </Col>
             <Col xl={8} lg={8} md={8} sm={12} xs={12}>
-            <AnimationOnScroll animateIn="animate__fadeInLeft"> 
+            <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}> 
             {faqData.map(item => <Questions number={item.number} question={item.question} answer={item.answer} />)}
             </AnimationOnScroll>
             </Col>

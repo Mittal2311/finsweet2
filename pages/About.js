@@ -31,10 +31,10 @@ const About = () => {
                 xl={{ span: 6, order: 1 }}
                 lg={{ span: 6, order: 1 }}
                 md={{ span: 6, order: 1 }}
-                sm={{ span: 12, order: 2 }}
-                xs={{ span: 12, order: 2 }}
+                sm={{ span: 12, order: 1 }}
+                xs={{ span: 12, order: 1 }}
               >
-                 <AnimationOnScroll animateIn="animate__fadeInDown"> 
+                 <AnimationOnScroll animateIn="animate__fadeInDown" animateOnce={true} > 
                 <div className={aboutstyle.AboutContent}>
                   <label className={aboutstyle.AboutTitle}>About us</label>
                   <h1 className={aboutstyle.AboutHeading}>
@@ -55,7 +55,7 @@ const About = () => {
                 sm={{ span: 12, order: 1 }}
                 xs={{ span: 12, order: 1 }}
               >
-              <AnimationOnScroll animateIn="animate__fadeInUp"> 
+              <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}> 
                 <Image
                   src="/images/AboutImg.svg"
                   className={aboutstyle.AboutImg}
@@ -76,7 +76,7 @@ const About = () => {
                 xs={12}
                 className={aboutstyle.WhoContent}
               >
-                <AnimationOnScroll animateIn="animate__fadeInLeft"> 
+                <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}> 
                 <label className={aboutstyle.WhoTitle}>Who we are</label>
                 <h3 className={aboutstyle.WhoHeading}>Goal focussed</h3>
                 <p className={aboutstyle.WhoDescription}>
@@ -95,7 +95,7 @@ const About = () => {
                 xs={12}
                 className={aboutstyle.WhoContent}
               >
-               <AnimationOnScroll animateIn="animate__fadeInLeft"> 
+               <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}> 
                 <label></label>
                 <h3 className={aboutstyle.WhoHeading}>
                   Continuous improvement
@@ -109,7 +109,7 @@ const About = () => {
                 </AnimationOnScroll>
               </Col>
               <Col xl={12} lg={12} md={12} sm={12} xs={12}>
-              <AnimationOnScroll animateIn="animate__fadeInUp"> 
+              <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}> 
                 <Image src="/images/WhoImg.svg" className={aboutstyle.WhoImg} />
                 </AnimationOnScroll>
               </Col>
@@ -119,13 +119,13 @@ const About = () => {
 
           {/* Process Section Start */}
           <div className={aboutstyle.ProcessSection}>
-          <AnimationOnScroll animateIn="animate__bounceIn"> 
+          <AnimationOnScroll animateIn="animate__bounceIn" animateOnce={true}> 
             <h2 className={aboutstyle.ProcessHeading}>The process we follow</h2>
             </AnimationOnScroll>
             <Row>
               {processData.map((item) => (
                 <Col xl={3} lg={3} md={6} sm={12} xs={12}>
-                <AnimationOnScroll animateIn="animate__fadeIn"> 
+                <AnimationOnScroll animateIn="animate__fadeIn" animateOnce={true}> 
                   <div className={aboutstyle.ProcessContent}>
                     <div className={aboutstyle.circle}></div>
                     <div className={aboutstyle.line}></div>
@@ -226,7 +226,7 @@ const About = () => {
         {/* Benefits Section Start */}
         <div className={benefitstyle.BenefitSection}>
         <Container>
-        <AnimationOnScroll animateIn="animate__bounceIn"> 
+        <AnimationOnScroll animateIn="animate__bounceIn" animateOnce={true}> 
         <h2 className={benefitstyle.BenefitHeading}>The benefits of working with us</h2>
         </AnimationOnScroll>
           <Row>

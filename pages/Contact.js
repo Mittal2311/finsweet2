@@ -4,7 +4,8 @@ import { Footer, Header } from "../component";
 import { Container,Row,Col } from "react-bootstrap";
 
 import contactstyle from "../styles/_contact.module.css";
-
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import "animate.css/animate.min.css";
 const Contact = () =>{
     return(
         <>
@@ -13,10 +14,15 @@ const Contact = () =>{
         <div className={contactstyle.ContactSection}>
         <Container>
         <div className="ContactHeading">
+        <AnimationOnScroll animateIn="animate__bounceIn" animateOnce={true}>
         <h2 className={contactstyle.ContactaTitle}>Contact Us</h2>
+        </AnimationOnScroll>
+        <AnimationOnScroll animateIn="animate__fadeInDown" animateOnce={true}>
         <p className={contactstyle.ContactParg}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        </AnimationOnScroll>
         </div>
             <Row>
+            <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}> 
               <div className={contactstyle.ContactForm}>
                 <div className="row formRow">
                   <Col xl={6} lg={6} md={6} sm={6} xs={12}>
@@ -71,6 +77,7 @@ const Contact = () =>{
                 </div>
                  <button class={contactstyle.ContactBtn}>Send Massage</button>
               </div>
+            </AnimationOnScroll>
             </Row>
         </Container>
 

@@ -9,7 +9,7 @@ export const OurWork = () => {
   return (
     <>
       <Col xl={8} lg={8} className={ourstyle.img_col}>
-        <AnimationOnScroll animateIn="animate__fadeInDown">
+        <AnimationOnScroll animateIn="animate__fadeInDown" animateOnce={true}>
           <Image src="/images/card1.svg" className={ourstyle.card1_img} />
           <div className={ourstyle.text_overly}>
             <h4 className={ourstyle.our_heading}>
@@ -24,14 +24,14 @@ export const OurWork = () => {
         </AnimationOnScroll>
       </Col>
       <Col xl={4} lg={4} className={ourstyle.img_col}>
-        <AnimationOnScroll animateIn="animate__fadeInUp">
+        <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
           <Image src="/images/card3.svg" className={ourstyle.card_imgs} />
           <div className={ourstyle.overly}>
             <h4 className={ourstyle.overly_heading}>Unisaas Website Design</h4>
             <button className={ourstyle.portfolio_btn}>View portfolio</button>
           </div>
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__fadeInUp">
+        <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
           <Image src="/images/card2.svg" className={ourstyle.card_imgs3} />
           {/* <div className={ourstyle.overly2}>
               <h4 className={ourstyle.overly_heading}>Unisaas Website Design</h4>

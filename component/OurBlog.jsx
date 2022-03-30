@@ -10,7 +10,7 @@ export const OurBlog = (props) => {
     <>
       {/* <h1>Blog</h1> */}
       <Col xl={4} lg={4} md={4} sm={12} xs={12}>
-        <AnimationOnScroll animateIn="animate__fadeInDown">
+        <AnimationOnScroll animateIn="animate__fadeInDown" animateOnce={true}>
           <Image src={blogimg} className={ourblogstyle.blogimg} />
           <div className={ourblogstyle.blog_content}>
             <span className={ourblogstyle.date}>{blogdate}</span>

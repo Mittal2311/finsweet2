@@ -19,7 +19,7 @@ export const Banner = () => {
               xs={{ span: 12, order: 2 }}
             >
               <div className={bannerstyle.banner_text}>
-              <AnimationOnScroll animateIn="animate__fadeInDown"> 
+              <AnimationOnScroll animateIn="animate__fadeInDown" duration={3}  animateOnce={true}> 
                 <h1 className={bannerstyle.banner_heading}>
                   Building stellar websites for early startups
                 </h1>
@@ -39,7 +39,7 @@ export const Banner = () => {
               sm={{ span: 12, order: 1 }}
               xs={{ span: 12, order: 1 }}
             >
-             <AnimationOnScroll animateIn="animate__fadeInUp"> 
+             <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}> 
               <Image
                 src="/images/bannerimg.svg"
                 className={bannerstyle.banner_img}

@@ -101,13 +101,9 @@ color: #000000;
 }
 @media only screen and (max-width: 767px) {
     .ContactSection {padding: 30px 0px;}
-    .ContactForm{padding: 30px;}
-  
- 
+    .ContactForm{padding: 30px; max-width: 590px;}
 }
 @media only screen and (max-width: 567px) {
     .ContactBtn{display: table; margin: 0 auto;}
-  
-  
 }
 /* Responsive end  */

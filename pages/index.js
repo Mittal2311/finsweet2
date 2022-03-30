@@ -49,7 +49,7 @@ export default function Home() {
       <div className={fstyle.feature}>
         <Container>
           <div className="main_heading text-center">
-            <AnimationOnScroll animateIn="animate__bounceIn">
+            <AnimationOnScroll animateIn="animate__bounceIn" animateOnce={true}>
               <label className={fstyle.f_label}>Features</label>
               <h2 className={fstyle.feature_heading}>
                 Design that solves problems, one product at a time
@@ -63,7 +63,6 @@ export default function Home() {
           </Row>
         </Container>
       </div>
-
       <Testimonials />
       <Faq />
       <ContactForm />

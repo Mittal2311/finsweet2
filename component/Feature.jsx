@@ -10,7 +10,7 @@ export const Feature = (props) => {
     <>
      
         <Col xl={4} lg={4} md={6} className={fstyle.main_content}>
-        <AnimationOnScroll animateIn="animate__fadeInUp"> 
+        <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}> 
           <div className={fstyle.feature_content }>
             <Image src={featureimg}  className={fstyle.imgicon}/>
             <h6 className={fstyle.cont_heading}>{featureheading}</h6>

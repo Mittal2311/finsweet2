@@ -14,7 +14,7 @@ export const WeWork = () => {
         <Container>
           <Row>
             <Col xl={4} lg={4} md={4} sm={12} xs={12}>
-            <AnimationOnScroll animateIn="animate__fadeInLeft">
+            <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}>
               <div className={westyle.work_heading_main}>
                 <h2 className={westyle.work_heading}>How we work</h2>
                 <p className={westyle.we_parg}>

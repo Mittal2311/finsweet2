@@ -9,7 +9,7 @@ export const Benefit = (props) => {
     return(
         <>
          <Col xl={4} lg={4} md={6} sm={12} xs={12} className={benefitstyle.MainContent}>
-        <AnimationOnScroll animateIn="animate__fadeInUp"> 
+        <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}> 
         <div className={benefitstyle.BenefitContent}>
         <Image src={benefiticon} />
         <h6 className={benefitstyle.ContnetHeading}>{benefitheading}</h6>

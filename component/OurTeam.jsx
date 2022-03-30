@@ -12,7 +12,7 @@ export const OurTeam = () => {
         <>
         <div className={teamstyle.OurTeamSection}>
         <Container>
-        <AnimationOnScroll animateIn="animate__bounceIn"> 
+        <AnimationOnScroll animateIn="animate__bounceIn" animateOnce={true}> 
         <h2 className={teamstyle.TeamHeading}>Meet our team</h2>
         </AnimationOnScroll>
             <Row>
