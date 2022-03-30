@@ -44,10 +44,10 @@ const Work = () => {
             variant="pills"
             defaultActiveKey="#home"
           >
-            <NavLink href="#home"  className={workstyle.navlink } onClick={() => { setOurWork(OurWorkJson) }}>All</NavLink>
-            <NavLink href="" className={workstyle.navlink }  onClick={() => { filterItem("UI Design") }}>UI Design</NavLink>
-            <NavLink href=""  className={workstyle.navlink } onClick={() => filterItem("Webflow Design")}>Webflow Design</NavLink>
-            <NavLink href="" className={workstyle.navlink } onClick={() => filterItem("Figma Design")}>Figma Design</NavLink>
+            <NavLink href="#home" className={workstyle.navlink} onClick={() => { setOurWork(OurWorkJson) }}>All</NavLink>
+            <NavLink href="" className={workstyle.navlink}  onClick={() => { filterItem("UI Design") }}>UI Design</NavLink>
+            <NavLink href=""  className={workstyle.navlink} onClick={() => filterItem("Webflow Design")}>Webflow Design</NavLink>
+            <NavLink href="" className={workstyle.navlink} onClick={() => filterItem("Figma Design")}>Figma Design</NavLink>
           </Nav>
           <Row>
           {ourworkData.map((item) => (

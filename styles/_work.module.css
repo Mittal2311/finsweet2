@@ -97,6 +97,16 @@
     margin: 20px 0 !important;
     max-width: 623px;
 }
+/* .OurWork.navlink.active {
+    background-color: transparent !important;
+    color: #2405F2 !important ;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 0 24px !important;
+  } */
   .navlink {
     font-family: 'Poppins';
     font-style: normal;

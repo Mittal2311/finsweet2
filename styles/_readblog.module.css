@@ -56,3 +56,31 @@
     width: 100%;
     margin-bottom: 20px;
 }
+
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+ 
+}
+@media only screen and (max-width: 992px) {
+    .ReadBlogSection {padding: 50px 0px;}
+    .BlogContent{margin: 0 100px;}
+    .ReadHeading{font-size: 30px;
+        line-height: 44px;max-width: 700px;}
+        .ReadParg {margin: 15px 0;}
+}
+@media only screen and (max-width: 768px) {
+    .ReadHeading{font-size: 25px;line-height: 35px;}                                                                                       
+}
+@media only screen and (max-width: 767px) {
+    .ReadBlogSection {padding: 30px 0px;}
+    .BlogContent{margin: 0 50px;}
+    .ReadHeading{font-size: 25px; max-width: 100%;
+        text-align: center;line-height: 35px;}
+        .ReadParg {text-align: center;}
+}
+@media only screen and (max-width: 567px) {
+    .BlogContent{margin: 0 30px;}
+    .ReadHeading{font-size: 19px;line-height: 26px;}
+    .ReadParg {font-size: 15px;}
+}
+/* Responsive end  */

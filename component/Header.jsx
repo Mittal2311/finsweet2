@@ -5,6 +5,9 @@ import NavbarCollapse from "react-bootstrap/NavbarCollapse";
 import headerstyle from "../styles/Header.module.css";
 
 export const Header = () => {
+  const clickbtn = () =>{
+    window.location.href = "Contact";
+  }
   return (
     <>
       {/* <h1>Home page </h1> */}
@@ -44,7 +47,7 @@ export const Header = () => {
                       Blog
                     </Nav.Link>
                   </Nav>
-                  <button className={headerstyle.contact_btn}>
+                  <button className={headerstyle.contact_btn} onClick={clickbtn}>
                     {" "}
                     Contact us
                   </button>

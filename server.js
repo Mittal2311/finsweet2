@@ -32,6 +32,12 @@ app.prepare().then(() => {
   server.get("/readblog", (req, res) => {
     app.render(req, res, "/ReadBlog");
   });
+  server.get("/contact", (req, res) => {
+    app.render(req, res, "/Contact");
+  });
+  server.get("/privacy", (req, res) => {
+    app.render(req, res, "/Privacy");
+  });
   server.all("*", (req, res) => {
     return handle (req, res, "/");
   });
