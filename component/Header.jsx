@@ -1,17 +1,22 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import { Container, Row, Navbar, Nav, Link, Offcanvas } from "react-bootstrap";
 import NavbarToggle from "react-bootstrap/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/NavbarCollapse";
-import headerstyle from "../styles/Header.module.css";
+import style from "../styles/Header.module.css";
 
 export const Header = () => {
-  const clickbtn = () =>{
-    window.location.href = "Contact";
-  }
+ 
+  const [activeLink, setActiveLink] = useState("");
+const clickbtn = () =>{
+  window.location.href = "Contact";
+}
+useEffect(() => {
+  setActiveLink(window.location.pathname);
+});
   return (
     <>
       {/* <h1>Home page </h1> */}
-      <div className={headerstyle.header_section}>
+      <div className={style.header_section}>
         <div className="desktop_nav">
           <Container>
             <Row>
@@ -22,32 +27,33 @@ export const Header = () => {
                 <NavbarToggle />
                 <NavbarCollapse
                   id="responsive-navbar-nav"
-                  className={headerstyle.navbar}
+                  className={style.navbar}
                 >
-                  <Nav className={headerstyle.header_nav}>
+                  <Nav className={style.header_nav}>
                     <Nav.Link
                       href="Home"
-                      className={[headerstyle.navlink, headerstyle.active]}
+                      active={activeLink == "/Home"}
+                      className={[style.navlink, style.active]}
                     >
                       Home
                     </Nav.Link>
-                    <Nav.Link href="About" className={headerstyle.navlink}>
+                    <Nav.Link href="About"  active={activeLink == "/About"} className={style.navlink}>
                       About Us
                     </Nav.Link>
-                    <Nav.Link href="Feature" className={headerstyle.navlink}>
+                    <Nav.Link href="Feature" active={activeLink == "/Feature"} className={style.navlink}>
                       Features
                     </Nav.Link>
-                    <Nav.Link href="Pricing" className={headerstyle.navlink}>
+                    <Nav.Link href="Pricing" active={activeLink == "/Pricing"} className={style.navlink}>
                       Pricing
                     </Nav.Link>
-                    <Nav.Link href="" className={headerstyle.navlink}>
+                    <Nav.Link href="" className={style.navlink}>
                       FAQ
                     </Nav.Link>
-                    <Nav.Link href="Blog" className={headerstyle.navlink}>
+                    <Nav.Link href="Blog" active={activeLink == "/Blog"} className={style.navlink}>
                       Blog
                     </Nav.Link>
                   </Nav>
-                  <button className={headerstyle.contact_btn} onClick={clickbtn}>
+                  <button className={style.contact_btn} onClick={clickbtn}>
                     {" "}
                     Contact us
                   </button>
@@ -66,13 +72,13 @@ export const Header = () => {
               </Navbar.Brand>
               <Navbar.Toggle
                 aria-controls="offcanvasNavbar"
-                className={headerstyle.menu_icon}
+                className={style.menu_icon}
               />
               <Navbar.Offcanvas
                 id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel"
                 placement="end"
-                className={headerstyle.leftmenu}
+                className={style.leftmenu}
               >
                 <Offcanvas.Header closeButton className="closebtn">
                 </Offcanvas.Header>
@@ -80,26 +86,26 @@ export const Header = () => {
                   <Nav className="justify-content-end flex-grow-1 pe-3">
                     <Nav.Link
                       href="Home"
-                      className={[headerstyle.navlink, headerstyle.active]}
+                      className={[style.navlink, style.active]}
                     >
                       Home
                     </Nav.Link>
-                    <Nav.Link href="Aboutus" className={headerstyle.navlink}>
+                    <Nav.Link href="Aboutus" className={style.navlink}>
                       About Us
                     </Nav.Link>
-                    <Nav.Link href="Feature" className={headerstyle.navlink}>
+                    <Nav.Link href="Feature" className={style.navlink}>
                       Features
                     </Nav.Link>
-                    <Nav.Link href="Pricing" className={headerstyle.navlink}>
+                    <Nav.Link href="Pricing" className={style.navlink}>
                       Pricing
                     </Nav.Link>
-                    <Nav.Link href="" className={headerstyle.navlink}>
+                    <Nav.Link href="" className={style.navlink}>
                       FAQ
                     </Nav.Link>
-                    <Nav.Link href="Blog" className={headerstyle.navlink}>
+                    <Nav.Link href="Blog" className={style.navlink}>
                       Blog
                     </Nav.Link>
-                    <button className={headerstyle.contact_btn} onClick={clickbtn}>
+                    <button className={style.contact_btn} onClick={clickbtn}>
                     {" "}
                     Contact us
                   </button>

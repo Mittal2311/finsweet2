@@ -1,50 +1,98 @@
 [
   {
     "id": 1,
-    "pricingnumber": "$299",
-    "pricingdesign": "Per Design",
-    "pricingheading": "Landing Page ",
-    "pricingdescription": "When you’re ready to go beyond prototyping in Figma,",
-    "pricingbutton": "Get started",
-    "List": [
-      "All limited links",
-      "Own analytics platform",
-      "Chat support",
-      "Optimize hashtags",
-      "Unlimited users"
+    "pricingNumber": "$299",
+    "pricingDesign": "Per Design",
+    "pricingHeading": "Landing Page ",
+    "pricingDescription": "When you’re ready to go beyond prototyping in Figma,",
+    "pricingButton": "Get started",
+    "list": [
+      {
+        "item": "All limited links",
+        "isActive": true
+      },
+      {
+        "item": "Own analytics platform",
+        "isActive": true
+      },
+      {
+        "item": "Chat support",
+        "isActive": true
+      },
+      {
+        "item": "Optimize hashtags",
+        "isActive": false
+      },
+      {
+        "item": "Unlimited users",
+        "isActive": false
+      }
     ]
   },
   {
     "id": 2,
-    "pricingnumber": "$399",
-    "pricingdesign": "Multi Design",
-    "pricingheading": "Website Page  ",
-    "pricingdescription": "When you’re ready to go beyond prototyping in Figma, Webflow’s ready to help.",
-    "pricingalllink": "All limited links",
-    "pricingbutton": "Get started",
-    "List": [
-      "All limited links",
-      "Own analytics platform",
-      "Chat support",
-      "Optimize hashtags",
-      "Unlimited users"
+    "pricingNumber": "$399",
+    "pricingDesign": "Multi Design",
+    "pricingHeading": "Website Page  ",
+    "pricingDescription": "When you’re ready to go beyond prototyping in Figma, Webflow’s ready to help.",
+    "pricingAllLink": "All limited links",
+    "pricingButton": "Get started",
+    "list": [
+      {
+        "item": "All limited links",
+        "isActive": true
+      },
+      {
+        "item": "Own analytics platform",
+        "isActive": true
+      },
+      {
+        "item": "Chat support",
+        "isActive": true
+      },
+      {
+        "item": "Optimize hashtags",
+        "isActive": true
+      },
+      {
+        "item": "Unlimited users",
+        "isActive": true
+      }
     ]
   },
 
   {
     "id": 3,
-    "pricingnumber": "$499 +",
-    "pricingdesign": "Per Design",
-    "pricingheading": "Complex Project ",
-    "pricingdescription": "When you’re ready to go beyond prototyping in Figma,",
-    "pricingbutton": "Get started",
-    "List": [
-      "All limited links",
-      "Own analytics platform",
-      "Chat support",
-      "Optimize hashtags",
-      "Unlimited users",
-      "Assist and Help"
-    ]
+    "pricingNumber": "$499 +",
+    "pricingDesign": "Per Design",
+    "pricingHeading": "Complex Project ",
+    "pricingDescription": "When you’re ready to go beyond prototyping in Figma,",
+    "pricingButton": "Get started",
+    "list": [
+      {
+        "item": "All limited links",
+        "isActive": true
+      },
+      {
+        "item": "Own analytics platform",
+        "isActive": true
+      },
+      {
+        "item": "Chat support",
+        "isActive": true
+      },
+      {
+        "item": "Optimize hashtags",
+        "isActive": true
+      },
+      {
+        "item": "Unlimited users",
+        "isActive": true
+      },
+      {
+        "item": "Assist and Help",
+        "isActive": true
+      }
+    ] 
   }
 ]

@@ -10,8 +10,6 @@
       url("../public/font/Manrope-Regular.ttf") format("truetype");
     font-weight: normal;
   }
-
-
 .PricingHeading {
     text-align: center;
 }
@@ -26,6 +24,9 @@
     margin-top: 50px;
     height: 745px;
 }
+/* .PricingCard:hover{
+    transform: scale(1.1);
+} */
 /* .PricingCard:hover {
     background: #1C1E53;
 } */
@@ -131,11 +132,15 @@
     transform: rotate(180deg);
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid #97DAAD;
+    /* border-right: 15px solid #97DAAD; */
     vertical-align: middle;
     margin-right: 10px;
-    
+    border-radius: 3px;
 }
+/* .ListLink:nth-child(4):before ,.ListLink:nth-child(5):before{
+    border-right: 15px solid gray;
+} */
+
 /* .PricingCard:hover .number,.PricingCard:hover .CardHeading , .PricingCard:hover .Cardparag ,.PricingCard:hover .ListLink {
     color: white !important;
 }

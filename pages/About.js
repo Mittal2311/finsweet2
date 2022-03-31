@@ -130,10 +130,10 @@ const About = () => {
                     <div className={aboutstyle.circle}></div>
                     <div className={aboutstyle.line}></div>
                     <h6 className={aboutstyle.CardHeading}>
-                      {item.processheading}
+                      {item.processHeading}
                     </h6>
                     <p className={aboutstyle.CardDescription}>
-                      {item.processdescription}
+                      {item.processDescription}
                     </p>
                   </div>
                   </AnimationOnScroll>
@@ -162,13 +162,13 @@ const About = () => {
                       >
                         <div className={aboutstyle.OurMission}>
                         <label className={aboutstyle.MissionTitle}>
-                          {i.ourtitle}
+                          {i.ourTitle}
                         </label>
                         <h3 className={aboutstyle.MissionHeading}>
-                          {i.ourheading}
+                          {i.ourHeading}
                         </h3>
                         <p className={aboutstyle.MissionParg}>
-                          {i.ourdescription}
+                          {i.ourDescription}
                         </p>
                         </div>
                       </Col>
@@ -203,13 +203,13 @@ const About = () => {
                       >
                         <div className={aboutstyle.OurMission1}>
                         <label className={aboutstyle.MissionTitle}>
-                          {i.ourtitle}{" "}
+                          {i.ourTitle}{" "}
                         </label>
                         <h3 className={aboutstyle.MissionHeading}>
-                          {i.ourheading}
+                          {i.ourHeading}
                         </h3>
                         <p className={aboutstyle.MissionParg}>
-                          {i.ourdescription}
+                          {i.ourDescription}
                         </p>
                         </div>
                       </Col>

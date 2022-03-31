@@ -5,15 +5,15 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import "animate.css/animate.min.css";
 
 export const Benefit = (props) => {
-    const {benefiticon,benefitheading,benefitdecription} = props.data;
+    const {benefitIcon,benefitHeading,benefitDescription} = props.data;
     return(
         <>
          <Col xl={4} lg={4} md={6} sm={12} xs={12} className={benefitstyle.MainContent}>
         <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}> 
         <div className={benefitstyle.BenefitContent}>
-        <Image src={benefiticon} />
-        <h6 className={benefitstyle.ContnetHeading}>{benefitheading}</h6>
-        <p className={benefitstyle.contentParg}>{benefitdecription}</p>
+        <Image src={benefitIcon} />
+        <h6 className={benefitstyle.ContnetHeading}>{benefitHeading}</h6>
+        <p className={benefitstyle.contentParg}>{benefitDescription}</p>
         </div>
           </AnimationOnScroll>
         </Col>

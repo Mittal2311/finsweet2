@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import bannerstyle from "../styles/Banner.module.css";
+import style from "../styles/Banner.module.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import "animate.css/animate.min.css";
 
@@ -8,7 +8,7 @@ export const Banner = () => {
   return (
     <>
       {/* <h1>Banner section</h1> */}
-      <div className={bannerstyle.banner_section}>
+      <div className={style.banner_section}>
         <Container>
           <Row>
             <Col
@@ -18,17 +18,17 @@ export const Banner = () => {
               sm={{ span: 12, order: 2 }}
               xs={{ span: 12, order: 2 }}
             >
-              <div className={bannerstyle.banner_text}>
+              <div className={style.banner_text}>
               <AnimationOnScroll animateIn="animate__fadeInDown" duration={3}  animateOnce={true}> 
-                <h1 className={bannerstyle.banner_heading}>
+                <h1 className={style.banner_heading}>
                   Building stellar websites for early startups
                 </h1>
-                <p className={bannerstyle.banner_parg}>
+                <p className={style.banner_parg}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt.
                 </p>
-                <button className={bannerstyle.view_btn}>View our work</button>
-                <button className={bannerstyle.price_btn}>View Pricing</button>
+                <button className={style.view_btn}>View our work</button>
+                <button className={style.price_btn}>View Pricing</button>
                 </AnimationOnScroll>
               </div>
             </Col>
@@ -42,7 +42,7 @@ export const Banner = () => {
              <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}> 
               <Image
                 src="/images/bannerimg.svg"
-                className={bannerstyle.banner_img}
+                className={style.banner_img}
               />
               </AnimationOnScroll>
             </Col>

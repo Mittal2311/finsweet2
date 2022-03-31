@@ -20,14 +20,14 @@ import ourstyle from "../styles/Ourwork.module.css";
 import fstyle from "../styles/Feature.module.css";
 import ourblogstyle from "../styles/OurBlog.module.css";
 
-import fetaturejson from "../json/Features.json";
+import fetatureJson from "../json/Features.json";
 import Ourblogjson from "../json/Ourblog.json";
 
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css/animate.min.css";
 
 export default function Home() {
-  const [featuredata] = useState(fetaturejson);
+  const [featuredata] = useState(fetatureJson);
   const [ourData] = useState(Ourblogjson);
 
   return (

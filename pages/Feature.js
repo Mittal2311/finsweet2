@@ -11,7 +11,7 @@ import {
 } from "../component";
 
 import benefitstyle from "../styles/_benefit.module.css";
-import featurestyle from "../styles/_feature.module.css";
+import style from "../styles/_feature.module.css";
 import aboutstyle from "../styles/_aboutus.module.css";
 
 import BenefitJson from "../json/Benefit.json";
@@ -32,7 +32,7 @@ const Feature = () => {
           <Row>
             <Logo />
             <AnimationOnScroll animateIn="animate__bounceIn" animateOnce={true}>
-              <h2 className={featurestyle.MainHeading}>
+              <h2 className={style.MainHeading}>
                 The benefits of working with our team
               </h2>
             </AnimationOnScroll>
@@ -55,20 +55,20 @@ const Feature = () => {
                       md={7}
                       sm={12}
                       xs={12}
-                      //className={featurestyle.MainCol}
+                      //className={style.MainCol}
                     >
                       <AnimationOnScroll
                         animateIn="animate__fadeInDown"
                         animateOnce={true}
                       >
                         <div className={aboutstyle.OurMission}>
-                          <span className={featurestyle.FeatureTitle}>
+                          <span className={style.FeatureTitle}>
                             {i.title}
                           </span>
-                          <h3 className={featurestyle.FeatureHeading}>
+                          <h3 className={style.FeatureHeading}>
                             {i.heading}
                           </h3>
-                          <p className={featurestyle.FeatureParg}>
+                          <p className={style.FeatureParg}>
                             {i.description}
                           </p>
                         </div>
@@ -80,7 +80,7 @@ const Feature = () => {
                       md={5}
                       sm={12}
                       xs={12}
-                      className={featurestyle.MainCol}
+                      className={style.MainCol}
                     >
                       <AnimationOnScroll
                         animateIn="animate__fadeInDown"
@@ -112,7 +112,7 @@ const Feature = () => {
                         md={5}
                         sm={12}
                         xs={12}
-                        className={featurestyle.MainCol}
+                        className={style.MainCol}
                       >
                         <AnimationOnScroll
                           animateIn="animate__fadeInUp"
@@ -130,20 +130,20 @@ const Feature = () => {
                         md={7}
                         sm={12}
                         xs={12}
-                        //className={featurestyle.MainCol}
+                        //className={style.MainCol}
                       >
                         <AnimationOnScroll
                           animateIn="animate__fadeInUp"
                           animateOnce={true}
                         >
-                          <div className={featurestyle.Leftside}>
-                            <span className={featurestyle.FeatureTitle}>
+                          <div className={style.Leftside}>
+                            <span className={style.FeatureTitle}>
                               {i.title}
                             </span>
-                            <h3 className={featurestyle.FeatureHeading}>
+                            <h3 className={style.FeatureHeading}>
                               {i.heading}
                             </h3>
-                            <p className={featurestyle.FeatureParg}>
+                            <p className={style.FeatureParg}>
                               {i.description}
                             </p>
                           </div>

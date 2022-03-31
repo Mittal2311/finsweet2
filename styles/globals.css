@@ -26,9 +26,14 @@ ul {
   top: 90% !important;
   right: 10% !important;
 }
+/* .slick-prev{
+
+  left: 50% !important;
+} */
 .slick-prev:after{
   content: '';
   background-color: red !important;
+
 }
 .slick-next {
   right: 6% !important;
@@ -119,8 +124,8 @@ img.messageicon {
   border: 1px solid #999;
   font-size: 20px;
 }
-/* 
-.nav-link.active {
+
+/* .navlink.active {
   background-color: transparent !important;
   color: #2405F2 !important ;
   font-family: 'Poppins';
@@ -131,6 +136,10 @@ img.messageicon {
   padding: 0 24px !important;
 } */
 
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: white !important;
+}
 /* Responsive start  */
 @media only screen and (max-width: 1199px) {
  

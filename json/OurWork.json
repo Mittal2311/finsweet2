@@ -1,50 +1,50 @@
 [
     {
       "id": 1,
-      "workimg": "/images/WorkImg1.svg",
-     "workheading":"Template 1",
-     "workdescription":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
-     "workview":"View Portfolio",
+      "workImg": "/images/WorkImg1.svg",
+     "workHeading":"Template 1",
+     "workDescription":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
+     "workView":"View Portfolio",
      "workType":"UI Design"
     },
     {
         "id": 2,
-        "workimg": "/images/WorkImg2.svg",
-       "workheading":"Template 2",
-       "workdescription":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
-       "workview":"View Portfolio",
+        "workImg": "/images/WorkImg2.svg",
+       "workHeading":"Template 2",
+       "workDescription":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
+       "workView":"View Portfolio",
        "workType":"Figma Design"
       },
       {
         "id": 3,
-        "workimg": "/images/WorkImg3.svg",
-       "workheading":"Template 3",
-       "workdescription":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
-       "workview":"View Portfolio",
+        "workImg": "/images/WorkImg3.svg",
+       "workHeading":"Template 3",
+       "workDescription":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
+       "workView":"View Portfolio",
        "workType":"Webflow Design"
       },
       {
         "id": 4,
-        "workimg": "/images/WorkImg4.svg",
-       "workheading":"Template 4",
-       "workdescription":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
-       "workview":"View Portfolio",
+        "workImg": "/images/WorkImg4.svg",
+       "workHeading":"Template 4",
+       "workDescription":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
+       "workView":"View Portfolio",
        "workType":"Figma Design"
       },
       {
         "id": 5,
-        "workimg": "/images/WorkImg5.svg",
-       "workheading":"Template 5",
-       "workdescription":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
-       "workview":"View Portfolio",
+        "workImg": "/images/WorkImg5.svg",
+       "workHeading":"Template 5",
+       "workDescription":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
+       "workView":"View Portfolio",
        "workType":"UI Design"
       },
       {
         "id": 6,
-        "workimg": "/images/WorkImg6.svg",
-       "workheading":"Template 6",
-       "workdescription":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
-       "workview":"View Portfolio",
+        "workImg": "/images/WorkImg6.svg",
+       "workHeading":"Template 6",
+       "workDescription":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
+       "workView":"View Portfolio",
        "workType":"UI Design"
       }
   ]

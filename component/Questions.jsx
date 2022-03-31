@@ -16,7 +16,7 @@ const Questions = (props) => {
                 <h6 className={faqstyle.faq_question} onClick={() => handleClick(props.id)}>{props.question}</h6>
                 <button onClick={() => handleClick(props.id)} className="angle">
                
-               {isActive ?(<span className={isActive ? "active" : ""}>-</span>):(<span className={isActive ? "active" : ""}>+</span> )}
+               {isActive ?(<span className={isActive ? "active" : ""}><img src="/images/close.png" /></span>):(<span className={isActive ? "active" : ""}><img src="/images/plus.png" /></span> )}
                 </button>
               </div>              
               <div className={isActive ? "answer active" : "answer"}>                        
@@ -27,5 +27,5 @@ const Questions = (props) => {
     )
 
 }
-export default Questions
+export default Questions;
 

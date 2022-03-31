@@ -29,7 +29,6 @@
 .navlink:hover{
   color: white !important;
 }
-
 .contact_btn {
     font-family: 'Poppins';
     font-style: normal;
@@ -46,9 +45,9 @@
 .menu_icon {
     background-color: white !important;
 }
-.active{
+/* .active{
     color: white !important;
-  }
+  } */
   .leftmenu {
     background-color: #1c1e53;
 }

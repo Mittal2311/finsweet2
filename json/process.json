@@ -1,23 +1,23 @@
 [
     {
       "id": 1,
-      "processheading":"Planning",
-     "processdescription":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+      "processHeading":"Planning",
+     "processDescription":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
     },
     {
         "id": 2,
-        "processheading":"Conception",
-       "processdescription":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+        "processHeading":"Conception",
+       "processDescription":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
       },
       {
         "id": 3,
-        "processheading":"Design",
-       "processdescription":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+        "processHeading":"Design",
+       "processDescription":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
       },
       {
         "id": 4,
-        "processheading":"Development",
-       "processdescription":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+        "processHeading":"Development",
+       "processDescription":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
       }
   ]
   
